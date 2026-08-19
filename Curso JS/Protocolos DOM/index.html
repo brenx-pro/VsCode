@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(17, 15, 26);
+    }
+    h1 {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p {
+        color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    div {
+        color: white;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    a {
+        color: white;
+    }
+        div#area {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: rgb(142, 117, 182);
+            border-radius: 25px;
+            height: 30px;
+        }
+</style>
+<body>
+    <div id="area" onclick="clicar()"  onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...
+    </div>
+    <h1>Iniciando o Protocolo DOM</h1>
+    <p>Aqui vai um resultado sobre o <strong>DOM</strong> em um modelo mais prático !</p>
+    <div><a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&t=691s" target="_blank">Clique em mim</a></div>
+    <script>
+         var area = window.document.getElementById('area')
+
+       function clicar() {
+        area.innerText = 'Clicou!'
+        area.style.backgroundColor = 'red'
+       }
+       function entrar () {
+        var area = document.getElementById('area')
+        area.innerText = 'Entrou!'
+        area.style.backgroundColor = 'rgb(142, 117, 182)'
+        }
+        function sair () {
+            var area = document.getElementById('area')
+            area.innerText = 'Saiu!'
+            area.style.backgroundColor ='rgb(142, 117, 182)'
+        }
+    </script>
+</body>
+</html>

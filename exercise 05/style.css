@@ -1,0 +1,63 @@
+h1{
+     font-family: sans-serif;
+    border: 100px 0px 0px 100px;
+    display: block;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(154, 154, 233);
+    border-radius: 15px;
+
+}
+
+.macaco{
+    margin: 0 0 0 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+h2{
+    font-family: sans-serif;
+    border: 100px 0px 0px 100px;
+    display: block;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(154, 154, 233);
+    border-radius: 15px;
+
+}
+body{
+    background-color: rgb(#fff);
+}
+p{
+    font-family: sans-serif;
+    border: 100px 0px 0px 100px;
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(154, 154, 233);
+    border-radius: 15px;
+}
+li{
+     font-family: sans-serif;
+    border: 100px 0 0 100px;
+    display: inline-block ;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(154, 154, 233);
+    border-radius: 15px;
+}
+.imagem{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}

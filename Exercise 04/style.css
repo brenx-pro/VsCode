@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    background-color: aqua;
+    font-size: 20px;
+    font-style: italic;
+}
+p {
+    font-size: 20px;
+    color: rgb(126, 48, 156);
+    background-color: black;
+    border-radius: 10px;   
+}
+q {
+ color: aquamarine;
+    
+}
